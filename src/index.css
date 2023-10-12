@@ -1,0 +1,26 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+/* I think I can delete this */ 
+#jumbotron{
+  background-image: url('./assets/images/shai-pal-6xoO8HfIrlE-unsplash.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#hero_img_home{
+  background-image: url('./assets/images/shai-pal-6xoO8HfIrlE-unsplash.jpg');
+  min-height: 720px;
+}
+
+#hero_img_general{
+  background-image: url('./assets/images/john-benitez-Cbv_EgKQDYQ-unsplash.jpg');
+}
+
+.hero_style{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 400px;
+}
