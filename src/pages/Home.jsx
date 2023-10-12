@@ -5,9 +5,9 @@ function About(){
     return (
         <div>
             <Header pageTitle="EXPERIENCE TROPICAL PARADISE" setBg="hero_img_home"/> 
-            <section className="d-flex align-items-center">
-                <div className="w-50 p-5 order-2">
-                    <h1 className="mb-3">EXPERIENCE TANITI</h1>
+            <section className="d-lg-flex align-items-center">
+                <div className="container w-100 w-lg-50 p-5 order-2 order-lg-2">
+                    <h1 id="about" className="mb-3">EXPERIENCE TANITI</h1>
                     <p>
                         Nestled in the heart of the Pacific lies Taniti, a
                         petite tropical island. Despite its compact size of under 
@@ -18,10 +18,10 @@ function About(){
                         lively valcano. Taniti plays host to an indigenous community numbering 
                         around 20,000 souls.Historically, the island's economic pulse 
                         beat to the rhythm of fishing and agriculture, but recent surges in 
-                        tourism have begub to redefine its financial landscape. 
+                        tourism have begun to redefine its financial landscape. 
                     </p>
                 </div>
-                <div className="w-50 order-1">
+                <div className="w-100 w-lg-50 order-1 order-lg-1">
                     <img src={img} alt="" className="img-fluid" style={{"minHeight" : "720px"}}/> 
                 </div>
             </section>

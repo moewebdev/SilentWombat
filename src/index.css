@@ -24,3 +24,24 @@
   background-repeat: no-repeat;
   min-height: 400px;
 }
+
+h1,
+h2,
+label{
+  color: #282a2b;
+}
+
+p{
+  color: #7c7c7c; 
+}
+
+#heading{
+  font-size: 40px; 
+  line-height: 1.1;
+}
+
+@media screen and (min-width: 960px){
+  #heading{
+    font-size: 80px; 
+  }
+}

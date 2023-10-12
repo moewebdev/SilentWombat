@@ -11,10 +11,10 @@ function Activities(){
     return (
         <div>
             <Header pageTitle="ACTIVITIES" setBg="hero_img_general"/>
-                <div className="p-5">
-                    <div className="text-center mb-5">
-                        <h1 className="w-50 mx-auto">ACTIVITIES</h1>
-                        <p className="w-50 mx-auto">
+                <div className="container">
+                    <div className="conatiner text-center p-5">
+                        <h1 className="mx-auto">ACTIVITIES</h1>
+                        <p className="mx-auto">
                             Most people visit Taniti to enjoy the beaches, 
                             explore the rainforest, and to visit the volcano. 
                             However, there are other things to do, including 
@@ -26,18 +26,11 @@ function Activities(){
                         </p>
                     </div>
                     
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    <section className="d-flex mb-5 gap-5 justify-content-center align-items-center">
-                        <div className="w-25">
+                    <section className="container d-flex flex-column flex-lg-row mb-5 gap-3 justify-content-center align-items-center">
+                        <div className="container">
                             <img src={fishing} alt="fishing" className="img-fluid"/>
                         </div>
-                        <div className="w-25">
+                        <div className="container">
                             <h2 className="mb-3">Fishing Tours</h2>
                             <p>
                                 Embark on an unforgettable fishing adventure 
@@ -50,11 +43,11 @@ function Activities(){
                         </div>
                     </section>
                         
-                    <section className="d-flex mb-5 gap-5 justify-content-center align-items-center">
-                        <div className="w-25 order-2">
+                    <section className="container d-flex flex-column flex-lg-row mb-5 gap-3 justify-content-center align-items-center">
+                        <div className="container order-lg-2">
                             <img src={snorkeling} alt="snorkeling" className="img-fluid"/>
                         </div> 
-                        <div className="w-25 order-1">
+                        <div className="container order-lg-1">
                             <h2 className="mb-3">Snorkeling</h2>
                             <p>
                                 Dive into Taniti's crystal-clear waters and 
@@ -64,11 +57,11 @@ function Activities(){
                         </div>
                     </section>
 
-                    <section className="d-flex mb-5 gap-5 justify-content-center align-items-center">
-                        <div className="w-25">
+                    <section className="container d-flex flex-column flex-lg-row mb-5 gap-3 justify-content-center align-items-center">
+                        <div className="container">
                             <img src={zipline} alt="snorkeling" className="img-fluid"/>
                         </div> 
-                        <div className="w-25">
+                        <div className="container">
                             <h2 className="mb-3">Zip-lining</h2>
                             <p>
                                 Elevate your senses as you soar through Taniti's 
@@ -79,11 +72,11 @@ function Activities(){
                         </div>
                     </section>
                     
-                    <section className="d-flex mb-5 gap-5 justify-content-center align-items-center">
-                        <div className="w-25 order-2">
+                    <section className="container d-flex flex-column flex-lg-row mb-5 gap-3 justify-content-center align-items-center">
+                        <div className="container order-lg-2">
                             <img src={helicopter} alt="helicopter rides" className="img-fluid"/>
                         </div> 
-                        <div className="w-25 order-1">
+                        <div className="container order-lg-1">
                             <h2 className="mb-3">Helicopter rides</h2>
                             <p>
                                 Take your Taniti experience to new heights with a breathtaking 
@@ -95,11 +88,11 @@ function Activities(){
                         </div>
                     </section>
 
-                    <section className="d-flex mb-5 gap-5 justify-content-center align-items-center">
-                        <div className="w-25">
+                    <section className="container d-flex flex-column flex-lg-row mb-5 gap-3 justify-content-center align-items-center">
+                        <div className="container order-lg-1">
                             <img src={golf} alt="golf" className="img-fluid"/>
-                        </div>
-                        <div className="w-25">
+                        </div> 
+                        <div className="container order-lg-2">
                             <h2 className="mb-3">Golf</h2>
                             <p>
                                 Tee off in paradise at Taniti's world-class golf courses. 

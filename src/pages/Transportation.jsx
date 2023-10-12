@@ -8,10 +8,10 @@ function Transportation(){
     return (
         <div>
             <Header pageTitle="TRANSPORTATION" setBg="hero_img_general" className="h-50"/> 
-                <div className="p-5">
-                    <div className="text-center mb-5">
-                        <h1 className="w-50 mx-auto">TRANSPORTATION</h1>
-                        <p className="w-50 mx-auto">
+                <div className="container">
+                    <div className="container text-center p-5">
+                        <h1 className="mx-auto">TRANSPORTATION</h1>
+                        <p className="mx-auto">
                             Most people visit Taniti to enjoy the beaches, 
                             explore the rainforest, and to visit the volcano. 
                             However, there are other things to do, including 
@@ -23,12 +23,11 @@ function Transportation(){
                         </p>
                     </div>
 
-                    <section className="d-flex mb-5 gap-5  align-items-center">
-                    
-                        <div className="w-50">
+                    <section className="container d-flex flex-column flex-lg-row mb-5 gap-3">
+                        <div className="container w-lg-50">
                             <img src={airplane} alt="airplane" className="img-fluid"/>
                         </div>
-                        <div className="w-50">
+                        <div className="container w-lg-50 d-lg-flex flex-lg-column justify-content-center">
                             <h2 className="mb-3">GETTING HERE</h2>
                             <p>
                                 Almost all visitors arrive to Taniti by air, 
@@ -40,16 +39,15 @@ function Transportation(){
                                 airport so larger jets will be able 
                                 to land on the island within the next few years.      
                             </p>
-                        </div>
-                       
+                        </div> 
                     </section>
 
-                    <section className="d-flex mb-5 gap-5 align-items-center">
+                    <section className="container d-flex flex-column flex-lg-row mb-5 gap-3 gap-lg-5">
                         
-                        <div className="w-50 order-2">
+                        <div className="cotainer w-lg-50 order-lg-2">
                             <img src={taxi} alt="taxi" className="img-fluid"/> 
                         </div>
-                        <div className="w-50 order-1">
+                        <div className="container w-lg-50 order-lg-1 d-lg-flex flex-lg-column justify-content-center">
                             <h2 className="mb-3">GETTING AROUND THE ISLAND</h2>
                             <p>
                                 Public buses serve Taniti City and run from 

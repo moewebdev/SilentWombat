@@ -9,7 +9,8 @@ function Header({pageTitle, setBg}){
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className="navbar-nav ms-auto">
-                            <a className="nav-link" href="/Accomodations">Accomodations</a>
+                            <a className="nav-link" href="/#about">About</a>
+                            <a className="nav-link" href="/accomodations">Accomodations</a>
                             <a className="nav-link" href="/activities">Activities</a>
                             <a className="nav-link" href="/transportation">Transportation</a>
                             <a className="nav-link pe-0" href="/contact">Contact</a>
@@ -18,8 +19,8 @@ function Header({pageTitle, setBg}){
                 </div>
             </nav>
             <div id={setBg} className="d-flex flex-column justify-content-center align-items-center text-light fw-bold hero_style">
-                <h2 className="display-1 fw-semibold">{pageTitle}</h2>
-                {setBg === "hero_img_home" && <a href="/activities" className="btn btn-primary">Learn More</a>}
+                <h2 id="heading"className="fw-semibold text-center" style={{"color" : "#ffffff"}}>{pageTitle}</h2>
+                {setBg === "hero_img_home" && <a href="#about" className="btn btn-primary">Learn More</a>}
             </div>
         </header>
     );

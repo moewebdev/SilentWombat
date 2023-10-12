@@ -11,10 +11,10 @@ function Accommodations(){
         <div>
             <Header pageTitle="ACCOMMODATIONS" setBg="hero_img_general"/> 
             
-            <div className="p-5">
-                <div className="text-center mb-5">
-                    <h1 className="w-50 mx-auto">WHERE TO STAY</h1>
-                    <p className="w-50 mx-auto">
+            <div className="container">
+                <div className="container text-center p-5">
+                    <h1 className="mx-auto">WHERE TO STAY</h1>
+                    <p className="mx-auto">
                         Taniti has a wide variety of lodging that ranges 
                         from an inexpensive hostel to one large, four-star resort. 
                         There are many small, family-owned hotels and a growing 
@@ -23,13 +23,13 @@ function Accommodations(){
                     </p>
                 </div>
 
-                <div className="d-flex gap-5 mb-5 justify-content-center">
-                    <div className="w-25">
-                        <div className="mb-3">
+                <div className="container d-flex flex-column flex-lg-row gap-5 gap-lg-0 mb-5 justify-content-center">
+                    <div className="container w-lg-25">
+                        <div className="container mb-3">
                             <img src={hotel} alt="hotel" className="img-fluid"/>
                         </div>
                     
-                        <div>
+                        <div className="container">
                             <h2 className="mb-3">Hotel</h2>
                             <p>
                                 Discover Taniti's charming hotels, where comfort 
@@ -43,12 +43,12 @@ function Accommodations(){
                         </div>
                     </div>
                     
-                    <div className="w-25">
-                        <div className="mb-3">
+                    <div className="container w-lg-25">
+                        <div className="container mb-3">
                             <img src={resort} alt="resort" className="img-fluid"/>
                         </div>
 
-                        <div>
+                        <div className="container">
                             <h2 className="mb-3">Resort</h2>
                             <p>
                                 Indulge in paradise at Taniti's exquisite 
@@ -63,13 +63,13 @@ function Accommodations(){
                     </div>
                 </div>
 
-                <div className="d-flex gap-5 mb-5 justify-content-center">
-                    <div className="w-25">
-                        <div className="mb-3">
+                <div className="container d-flex flex-column flex-lg-row gap-5 gap-lg-0 mb-5 justify-content-center">
+                    <div className="container w-lg-25">
+                        <div className="container mb-3">
                             <img src={bedandbreakfast} alt="Bed and Breakfast" className="img-fluid"/>
                         </div>
                     
-                        <div>
+                        <div className="container">
                             <h2 className="mb-3">Bed and Breakfast</h2>
                             <p>
                                 Experience the heart of Taniti at our 
@@ -83,11 +83,11 @@ function Accommodations(){
                         </div>
                     </div>
 
-                    <div className="w-25">
-                        <div className="mb-3">
+                    <div className="container w-lg-25">
+                        <div className="container mb-3">
                             <img src={hostel} alt="Hostel" className="img-fluid"/>
                         </div>
-                        <div>
+                        <div className="container">
                             <h2 className="mb-3">Hostel</h2>
                             <p>
                                 For budget-conscious travelers, Taniti's hostels 
