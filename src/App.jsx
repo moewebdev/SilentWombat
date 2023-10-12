@@ -1,7 +1,6 @@
 //import './App.css'
 import NoMatch from './pages/NoMatch';
-import Home from './pages/Home'; 
-import About from './pages/About'; 
+import Home from './pages/Home';  
 import Accomodations from './pages/Accommodations'; 
 import Activities from './pages/Activities'; 
 import Contact from './pages/Contact'; 
@@ -15,7 +14,6 @@ function App() {
       <Routes>
         <Route path="*" element={<NoMatch />}/>
         <Route path="/" element={<Home />}/>
-        <Route path="/about" element={<About />}/>
         <Route path="/contact" element={<Contact />}/>
         <Route path="/accomodations" element={<Accomodations />}/>
         <Route path="/activities" element={<Activities />}/>

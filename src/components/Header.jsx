@@ -9,8 +9,6 @@ function Header({pageTitle, setBg}){
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className="navbar-nav ms-auto">
-                            <a className="nav-link active" aria-current="page" href="/">Home</a>
-                            <a className="nav-link" href="/about">About</a>
                             <a className="nav-link" href="/Accomodations">Accomodations</a>
                             <a className="nav-link" href="/activities">Activities</a>
                             <a className="nav-link" href="/transportation">Transportation</a>
