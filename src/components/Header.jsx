@@ -10,7 +10,7 @@ function Header({pageTitle, setBg}){
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className="navbar-nav ms-auto">
                             <a className="nav-link" href="/#about">About</a>
-                            <a className="nav-link" href="/accomodations">Accomodations</a>
+                            <a className="nav-link" href="/accommodations">Accommodations</a>
                             <a className="nav-link" href="/activities">Activities</a>
                             <a className="nav-link" href="/transportation">Transportation</a>
                             <a className="nav-link pe-0" href="/contact">Contact</a>
