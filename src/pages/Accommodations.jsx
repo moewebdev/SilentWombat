@@ -40,6 +40,7 @@ function Accommodations(){
                                 meticulous attention to detail that 
                                 defines Tanitian accommodations. 
                             </p>
+                            <a href="/contact" className="btn btn-primary">Learn more</a>
                         </div>
                     </div>
                     
@@ -59,6 +60,7 @@ function Accommodations(){
                                 landscapes, and unparalleled service 
                                 for an unforgettable escape. 
                             </p>
+                            <a href="/contact" className="btn btn-primary">Learn more</a>
                         </div>
                     </div>
                 </div>
@@ -80,6 +82,7 @@ function Accommodations(){
                                 yourself in the local culture and 
                                 create lasting memories with our hospitable hosts.
                             </p>
+                            <a href="/contact" className="btn btn-primary">Learn more</a>
                         </div>
                     </div>
 
@@ -99,6 +102,7 @@ function Accommodations(){
                                 and adhere to strict safety standards 
                                 set by the Tahitian government.
                             </p>
+                            <a href="/contact" className="btn btn-primary">Learn more</a>
                         </div>
                     </div>
                 </div>
