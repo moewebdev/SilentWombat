@@ -26,7 +26,7 @@ function Accommodations(){
                 <div className="container d-flex flex-column flex-lg-row gap-5 gap-lg-0 mb-5 justify-content-center">
                     <div className="container w-lg-25">
                         <div className="container mb-3">
-                            <img src={hotel} alt="hotel" className="img-fluid"/>
+                            <img src={hotel} alt="hotel" className="img-fluid rounded"/>
                         </div>
                     
                         <div className="container">
@@ -40,13 +40,13 @@ function Accommodations(){
                                 meticulous attention to detail that 
                                 defines Tanitian accommodations. 
                             </p>
-                            <a href="/contact" className="btn btn-primary">Learn more</a>
+                            <a href="/contact" className="btn btn-primary">Learn More</a>
                         </div>
                     </div>
                     
                     <div className="container w-lg-25">
                         <div className="container mb-3">
-                            <img src={resort} alt="resort" className="img-fluid"/>
+                            <img src={resort} alt="resort" className="img-fluid rounded"/>
                         </div>
 
                         <div className="container">
@@ -60,7 +60,7 @@ function Accommodations(){
                                 landscapes, and unparalleled service 
                                 for an unforgettable escape. 
                             </p>
-                            <a href="/contact" className="btn btn-primary">Learn more</a>
+                            <a href="/contact" className="btn btn-primary">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -68,7 +68,7 @@ function Accommodations(){
                 <div className="container d-flex flex-column flex-lg-row gap-5 gap-lg-0 mb-5 justify-content-center">
                     <div className="container w-lg-25">
                         <div className="container mb-3">
-                            <img src={bedandbreakfast} alt="Bed and Breakfast" className="img-fluid"/>
+                            <img src={bedandbreakfast} alt="Bed and Breakfast" className="img-fluid rounded"/>
                         </div>
                     
                         <div className="container">
@@ -82,13 +82,13 @@ function Accommodations(){
                                 yourself in the local culture and 
                                 create lasting memories with our hospitable hosts.
                             </p>
-                            <a href="/contact" className="btn btn-primary">Learn more</a>
+                            <a href="/contact" className="btn btn-primary">Learn More</a>
                         </div>
                     </div>
 
                     <div className="container w-lg-25">
                         <div className="container mb-3">
-                            <img src={hostel} alt="Hostel" className="img-fluid"/>
+                            <img src={hostel} alt="Hostel" className="img-fluid rounded"/>
                         </div>
                         <div className="container">
                             <h2 className="mb-3">Hostel</h2>
@@ -102,7 +102,7 @@ function Accommodations(){
                                 and adhere to strict safety standards 
                                 set by the Tahitian government.
                             </p>
-                            <a href="/contact" className="btn btn-primary">Learn more</a>
+                            <a href="/contact" className="btn btn-primary">Learn More</a>
                         </div>
                     </div>
                 </div>

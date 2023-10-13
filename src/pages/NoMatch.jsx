@@ -5,8 +5,10 @@ function NoMatch() {
     return (
       <div>
         <Header pageTitle="404" setBg="hero_img_general"/>
-        <h2>404: Page Not Found</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adip.</p>
+        <div className="text-center p-5">
+          <h2 className="mb-4">404: Page Not Found</h2>
+          <a href="/" className="btn btn-secondary">Back</a>
+        </div>
         <Footer /> 
       </div>
     );

@@ -1,12 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap');
+
 *{
   font-family: 'Poppins', sans-serif;
-}
-/* I think I can delete this */ 
-#jumbotron{
-  background-image: url('./assets/images/shai-pal-6xoO8HfIrlE-unsplash.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 #hero_img_home{
@@ -33,6 +28,16 @@ label{
 
 p{
   color: #7c7c7c; 
+}
+
+.navbar-brand{
+  color: #08ABA1;
+  font-size: 30px;
+  letter-spacing: .5px;
+}
+
+.nav-link:hover{
+  color: #08ABA1;
 }
 
 #heading{

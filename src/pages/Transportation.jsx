@@ -12,20 +12,17 @@ function Transportation(){
                     <div className="container text-center p-5">
                         <h1 className="mx-auto">TRANSPORTATION</h1>
                         <p className="mx-auto">
-                            Most people visit Taniti to enjoy the beaches, 
-                            explore the rainforest, and to visit the volcano. 
-                            However, there are other things to do, including 
-                            going on chartered fishing tours, snorkeling, 
-                            zip-lining in the rainforest, taking helicopter 
-                            rides, and playing golf! No matter what your 
-                            interest is, we are confident that you will
-                            find something fun to do during your visit to Taniti! 
+                            Traveling to and navigating Taniti is a breeze! Whether you opt for a 
+                            flight or a cruise ship, the island can accommodate your chosen mode of 
+                            transportation. Upon arrival, you'll discover a convenient selection of
+                            rental cars, readily available taxis, and bikes, all ready to make 
+                            exploring the island effortlessly enjoyable!
                         </p>
                     </div>
 
                     <section className="container d-flex flex-column flex-lg-row mb-5 gap-3">
                         <div className="container w-lg-50">
-                            <img src={airplane} alt="airplane" className="img-fluid"/>
+                            <img src={airplane} alt="airplane" className="img-fluid rounded"/>
                         </div>
                         <div className="container w-lg-50 d-lg-flex flex-lg-column justify-content-center">
                             <h2 className="mb-3">GETTING HERE</h2>
@@ -39,13 +36,15 @@ function Transportation(){
                                 airport so larger jets will be able 
                                 to land on the island within the next few years.      
                             </p>
+                            <a href="https://www.kayak.com/" className="btn btn-primary w-25">Book Now</a>
                         </div> 
+                        
                     </section>
 
                     <section className="container d-flex flex-column flex-lg-row mb-5 gap-3 gap-lg-5">
                         
                         <div className="cotainer w-lg-50 order-lg-2">
-                            <img src={taxi} alt="taxi" className="img-fluid"/> 
+                            <img src={taxi} alt="taxi" className="img-fluid rounded"/> 
                         </div>
                         <div className="container w-lg-50 order-lg-1 d-lg-flex flex-lg-column justify-content-center">
                             <h2 className="mb-3">GETTING AROUND THE ISLAND</h2>
@@ -60,6 +59,7 @@ function Transportation(){
                                 flat and very walkable. Many tourists stay in the area 
                                 surrounding Merriton Landing: this area is easy to explore on foot.
                             </p>
+                            <a href="https://www.hertz.com/rentacar/reservation/" className="btn btn-primary w-25">Book Now</a>
                         </div>
                         
                     </section>

@@ -10,13 +10,12 @@ function About(){
                     <h1 id="about" className="mb-3">EXPERIENCE TANITI</h1>
                     <p>
                         Nestled in the heart of the Pacific lies Taniti, a
-                        petite tropical island. Despite its compact size of under 
-                        500 square miles, the landscape boasts a delightful blend
-                        of elements. It boasts sandy shored and craggy coastlines, 
-                        a snug yet secure harbor, luxuriant tropical rainforests, 
-                        and an interior marked by towering peaks, including a petite yet
-                        lively valcano. Taniti plays host to an indigenous community numbering 
-                        around 20,000 souls.Historically, the island's economic pulse 
+                        small tropical island. Despite its compact size of under 
+                        500 square miles, the island has a great blend
+                        of natural attractions. It boasts sandy shored and craggy coastlines, 
+                        a secure harbor, tropical rainforests, mountains, and a small 
+                        valcano. Taniti plays host to an indigenous community numbering 
+                        around 20,000 people. Historically, the island's economic pulse 
                         beat to the rhythm of fishing and agriculture, but recent surges in 
                         tourism have begun to redefine its financial landscape. 
                     </p>

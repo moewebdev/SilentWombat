@@ -28,7 +28,7 @@ function Activities(){
                     
                     <section className="container d-flex flex-column flex-lg-row mb-5 gap-3 justify-content-center align-items-center">
                         <div className="container">
-                            <img src={fishing} alt="fishing" className="img-fluid"/>
+                            <img src={fishing} alt="fishing" className="img-fluid rounded"/>
                         </div>
                         <div className="container">
                             <h2 className="mb-3">Fishing Tours</h2>
@@ -40,12 +40,13 @@ function Activities(){
                                 angler or a seasoned pro, our fishing tours will provide
                                 an experience to remember!
                             </p>
+                            <a href="https://www.tripshock.com/" className="btn btn-primary">Book Now</a>
                         </div>
                     </section>
                         
                     <section className="container d-flex flex-column flex-lg-row mb-5 gap-3 justify-content-center align-items-center">
                         <div className="container order-lg-2">
-                            <img src={snorkeling} alt="snorkeling" className="img-fluid"/>
+                            <img src={snorkeling} alt="snorkeling" className="img-fluid rounded"/>
                         </div> 
                         <div className="container order-lg-1">
                             <h2 className="mb-3">Snorkeling</h2>
@@ -54,12 +55,13 @@ function Activities(){
                                 discover a vibrant underwater world teeming 
                                 with colorful coral reefs and exotic marine life!
                             </p>
+                            <a href="https://www.tripshock.com/" className="btn btn-primary">Book Now</a>
                         </div>
                     </section>
 
                     <section className="container d-flex flex-column flex-lg-row mb-5 gap-3 justify-content-center align-items-center">
                         <div className="container">
-                            <img src={zipline} alt="snorkeling" className="img-fluid"/>
+                            <img src={zipline} alt="snorkeling" className="img-fluid rounded"/>
                         </div> 
                         <div className="container">
                             <h2 className="mb-3">Zip-lining</h2>
@@ -69,12 +71,13 @@ function Activities(){
                                 Feel the rush of adrenaline as you glide high above the treetops, 
                                 enjoying panoramic views of the island's stunning landscape. 
                             </p>
+                            <a href="https://www.tripshock.com/" className="btn btn-primary">Book Now</a>
                         </div>
                     </section>
                     
                     <section className="container d-flex flex-column flex-lg-row mb-5 gap-3 justify-content-center align-items-center">
                         <div className="container order-lg-2">
-                            <img src={helicopter} alt="helicopter rides" className="img-fluid"/>
+                            <img src={helicopter} alt="helicopter rides" className="img-fluid rounded"/>
                         </div> 
                         <div className="container order-lg-1">
                             <h2 className="mb-3">Helicopter rides</h2>
@@ -85,12 +88,13 @@ function Activities(){
                                 and volcanic craters. Our helicopter tours offer a unique perspective 
                                 on Taniti's natural wonders, making it a must-do for sightseeing enthusiasts.
                             </p>
+                            <a href="https://www.tripshock.com/" className="btn btn-primary">Book Now</a>
                         </div>
                     </section>
 
                     <section className="container d-flex flex-column flex-lg-row mb-5 gap-3 justify-content-center align-items-center">
                         <div className="container order-lg-1">
-                            <img src={golf} alt="golf" className="img-fluid"/>
+                            <img src={golf} alt="golf" className="img-fluid rounded"/>
                         </div> 
                         <div className="container order-lg-2">
                             <h2 className="mb-3">Golf</h2>
@@ -101,6 +105,7 @@ function Activities(){
                                 golf aficionado or a casual player, our courses offer the 
                                 perfect blend of challenge and relaxation in an idyllic setting.
                             </p>
+                            <a href="https://www.tripshock.com/" className="btn btn-primary">Book Now</a>
                         </div>
                     </section>
                 </div>
